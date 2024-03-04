@@ -1,0 +1,16 @@
+/* Thanks style */
+
+.container-thanks{
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+}
+
+.heading-thanks{
+    font-size: 30px;
+}
+
+.thanks-paragraph{
+    width: 60vw;
+    font-size: 20px;
+}

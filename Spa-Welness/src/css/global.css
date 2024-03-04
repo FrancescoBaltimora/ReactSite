@@ -1,0 +1,286 @@
+/*
+A library use it only if you're sure the layout doesn't change in responsive mode.
+To use it you should write the name of the property you want to use in the 'className' property of xml tag in the component.
+Warning! Don't change anything! Be sure about that!
+*/
+
+/* Default properties */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Properties for positioning */
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.start{
+    align-items: flex-start;
+}
+
+.gap-xxs{
+    gap: 1rem;
+}
+
+.gap-xs{
+    gap: 2rem;
+}
+
+.gap-s{
+    gap: 3rem;
+}
+
+.gap-m{
+    gap: 4rem;
+}
+
+.gap-l{
+    gap: 5rem;
+}
+
+.gap-xl{
+    gap: 6rem;
+}
+
+.gap-xxl{
+    gap: 7rem;
+}
+
+.padding-xxs{
+    padding: 10px;
+}
+
+.padding-xs{
+    padding: 15px;
+}
+
+.padding-s{
+    padding: 20px;
+}
+
+.padding-m{
+    padding: 25px;
+}
+
+.padding-l{
+    padding: 30px;
+}
+
+.padding-xl{
+    padding: 35px;
+}
+
+.padding-xxl{
+    padding: 40px;
+}
+
+.padding-left-xxs{
+    padding-left: 10px;
+}
+
+.padding-left-xs{
+    padding-left: 15px;
+}
+
+.padding-left-s{
+    padding-left: 20px;
+}
+
+.padding-left-m{
+    padding-left: 25px;
+}
+
+.padding-left-l{
+    padding-left: 30px;
+}
+
+.padding-left-xl{
+    padding-left: 35px;
+}
+
+.padding-left-xxl{
+    padding-left: 40px;
+}
+
+.padding-right-xxs{
+    padding-right: 10px;
+}
+
+.padding-right-xs{
+    padding-right: 15px;
+}
+
+.padding-right-s{
+    padding-right: 20px;
+}
+
+.padding-right-m{
+    padding-right: 25px;
+}
+
+.padding-right-l{
+    padding-right: 30px;
+}
+
+.padding-right-xl{
+    padding-right: 35px;
+}
+
+.padding-right-xxl{
+    padding-right: 40px;
+}
+
+.padding-top-xxs{
+    padding-top: 10px;
+}
+
+.padding-top-xs{
+    padding-top: 15px;
+}
+
+.padding-top-s{
+    padding-top: 20px;
+}
+
+.padding-top-m{
+    padding-top: 25px;
+}
+
+.padding-top-l{
+    padding-top: 30px;
+}
+
+.padding-top-xl{
+    padding-top: 35px;
+}
+
+.padding-top-xxl{
+    padding-top: 40px;
+}
+
+.padding-bottom-xxs{
+    padding-bottom: 10px;
+}
+
+.padding-bottom-xs{
+    padding-bottom: 15px;
+}
+
+.padding-bottom-s{
+    padding-bottom: 20px;
+}
+
+.padding-bottom-m{
+    padding-bottom: 25px;
+}
+
+.padding-bottom-l{
+    padding-bottom: 30px;
+}
+
+.padding-bottom-xl{
+    padding-bottom: 35px;
+}
+
+.padding-bottom-xxl{
+    padding-bottom: 40px;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+/* Properties for color and style */
+.icon{
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+a > p{
+    color: black;
+}
+
+.white-text{
+    color: white;
+}
+
+.black-text{
+    color: rgb(0, 0, 0);
+}
+
+/* Properties for visibility */
+
+.hidden{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+
+/* Properties for resize an image */
+
+.img-xxs{
+    width: 40px;
+}
+
+.img-xs{
+    width: 50px;
+}
+
+.img-s{
+    width: 60px;
+}
+
+.img-m{
+    width: 70px;
+}
+
+.img-l{
+    width: 100px;
+}
+
+.img-xl{
+    width: 300px;
+}
+
+.img-xxl{
+    width: 400px;
+}
+
+/* Colors */
+
+:root{
+    --mainColor: #86ADB0;
+    --footercolor: #D9D9D9;
+}

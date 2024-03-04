@@ -1,0 +1,18 @@
+.container-career{
+    width: 80vw;
+    justify-content: center;
+}
+
+.main-container{
+    width: 100vw;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.heading-career{
+    font-size: 40px;
+}
+
+.paragraph-career{
+    font-size: 20px;
+}

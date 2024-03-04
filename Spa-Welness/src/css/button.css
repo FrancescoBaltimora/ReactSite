@@ -1,0 +1,14 @@
+.btn{
+    background-color: var(--mainColor);
+    border-radius: 25px;
+    border: none;
+    font-size: 25px;
+    width: 10rem;
+    height: 3rem;
+}
+
+.btn:hover{
+    border: var(--mainColor) 2px solid;
+    box-shadow: 2px;
+    background-color: rgb(212, 211, 211)
+}

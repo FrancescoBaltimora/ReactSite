@@ -1,0 +1,50 @@
+/* Burger menu style */
+
+.burgermenu-hr{
+    width: 295px;
+}
+
+.burger-menu{
+    background-color: white;
+    width: 100vw;
+}
+
+.news{
+    background-color: var(--mainColor);
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+}
+
+/* text style*/
+
+.minor{
+    font-weight: lighter
+}
+
+.news > a > p{
+    font-size: smaller;
+}
+
+/* img style */
+
+.close-icon{
+    font-size: 60px;
+}
+
+.header-icon{
+    font-size: 30px;
+    color: black;
+}
+
+/* Show menu transition */
+
+.inactive{
+    transform: translateY(-105vh);
+    transition: all 0.5s ease-in;
+}
+
+.active{
+    transform: translateY(-85px);
+    transition: all 0.5s ease-in;
+}
